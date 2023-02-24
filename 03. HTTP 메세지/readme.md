@@ -5,11 +5,13 @@
 
 - ### 3.1.1 인바운드 / 아웃바운드
   - 트랜잭션 방향을 표현할 때 인바운드 / 아웃바운드 라는 용어를 활용한다.
+  
 ![image](https://user-images.githubusercontent.com/87873821/220694731-d25a8c16-8f27-4fd6-a263-30a9197f3c99.png)
 
 - ### 3.1.2 업스트림 / 다운스트림
   - HTTP 메시지는 무조건 발송자가 **업스트림**, 수신자가 **다운스트림**이다.
   - HTTP 메시지는 무조건 업스트림 에서 다운스트림 으로 흐른다.
+  
 ![image](https://user-images.githubusercontent.com/87873821/220697152-f0a8f3be-1b6b-4717-8f2d-ff880dd80ca9.png)
 
 ## 3.2 메시지의 각 부분
