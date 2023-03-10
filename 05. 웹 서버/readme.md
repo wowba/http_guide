@@ -56,8 +56,7 @@
   > - 커넥션에 데이터가 도착하면 웹 서버는 커넥션에서 그 데이터를 읽고 파싱하여 요청 메시지를 구성한다.
   > - 요청 줄을 파싱하여 메서드, URI, HTTP 버전을 찾는다. 이후 헤더를 찾으며 각 헤더는 CRLF로 끝난다.
   > - 엔티티가 있을 경우 읽어들이며, 길이는 Content-Length 헤더로 정의된다.
-
-![image](https://user-images.githubusercontent.com/87873821/223754223-c06e3431-d8e7-49bc-b43f-86b3d4388fd7.png)
+  > ![image](https://user-images.githubusercontent.com/87873821/223754223-c06e3431-d8e7-49bc-b43f-86b3d4388fd7.png)
 
 - ### **5.5.1 메시지의 내부 표현**
   > 특정 웹 서버는 요청 메시지를 쉽게 다룰 수 있도록 내부의 자료 구조에 저장한다.
@@ -77,8 +76,7 @@
 - ### **5.7.1 Docoroot**
   > - 리소스 매핑의 가장 단순한 형태는 요청 URI를 웹 서버 파일시스템 내부 파일 이름으로 사용하는 것.
   > - 일반적으로 웹 서버 파일 시스템의 특정 폴더를 웹 콘텐츠를 위해 예약해놓으며, 문서 루트 혹은 docroot 로 불린다.
-
-![image](https://user-images.githubusercontent.com/87873821/223759121-8c404de0-3d42-480d-bb51-95f5d8da86e7.png)
+  > ![image](https://user-images.githubusercontent.com/87873821/223759121-8c404de0-3d42-480d-bb51-95f5d8da86e7.png)
 
 - ### **5.7.1 가상 호스팅 Docoroot**
   > - 가상 호스팅 웹 서버는 각각 분리된 문서 루트를 부여하여 하나의 웹 서버에서 여러개의 웹 사이트를 호스팅한다.
